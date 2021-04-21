@@ -1,0 +1,93 @@
+table {
+  background-color: #884EA0;
+  color: #fff;
+}
+tr:hover {
+  background-color: #17A589;
+  color: white;
+}
+td {
+  width: 250px;
+  font-size: 30px;
+  border: 1px solid #839192;
+  text-align: center;
+  padding: 5px 10px;
+}
+input {
+  font-size: 30px;
+  width: 200px;
+  height: 100px;
+  color: #2E86C1;
+  padding: 0px 10px;
+}
+button {
+  width: 70px;
+  height: 70px;
+  font-size: 1.8rem;
+}
+.table-div {
+  margin: auto;
+}
+#remove-icon {
+  width: 80%;
+}
+#add-icon {
+  width: 18%;
+}
+.ng-empty {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 80px;
+  width: 350px;
+}
+
+/* UTILITIES */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container > * {
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* tr:nth-of-type(even):hover {
+    background-color: white;
+} */
+tr:first-of-type {
+  border-radius: 6px;
+}
+tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
